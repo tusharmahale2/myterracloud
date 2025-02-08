@@ -19,7 +19,7 @@ resource "aws_instance" "myec2" {
     Name = "myinstance "
   }
 }
-variable "my_region"
+variable "my_region" {
 	type = string
 	default = "ap-south-1"
 }
